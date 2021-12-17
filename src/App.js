@@ -1,15 +1,11 @@
-import './App.css';
-import ListRickAndMorty from './components/ListRickAndMorty';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Personajes de Rick And Morty</h1>
-       <ListRickAndMorty/>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1>Hola mundo</h1>
+        </div>
+    );
 }
 
 export default App;
