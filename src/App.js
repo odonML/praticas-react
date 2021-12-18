@@ -3,6 +3,7 @@ import ComponenteClase from "./components/ComponenteClase/index";
 import ComponenteFuncional from "./components/ComponenteFuncional";
 import EstadoClase from "./components/EstadoClase";
 import Propiedades from "./components/Propiedades";
+import EstadoFuncional from './components/EstadoFuncional/index';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 componente={<ComponenteFuncional msj="hola"/>}
             /> */}
             <EstadoClase />
+            <EstadoFuncional/>
         </div>
     );
 }
