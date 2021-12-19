@@ -5,6 +5,7 @@ import EstadoClase from "./components/EstadoClase";
 import Propiedades from "./components/Propiedades";
 import EstadoFuncional from './components/EstadoFuncional/index';
 import RenderizadoElementosClase from "./components/RenderizadoElementosClase/RenderizadoElementosClase";
+import Eventos from './components/Eventos/index';
 
 function App() {
     return (
@@ -23,8 +24,9 @@ function App() {
             /> 
             <EstadoClase />
             <EstadoFuncional/>
-            */}
             <RenderizadoElementosClase/>
+            */}
+            <Eventos/>
         </div>
     );
 }
