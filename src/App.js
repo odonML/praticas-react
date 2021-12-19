@@ -4,6 +4,7 @@ import ComponenteFuncional from "./components/ComponenteFuncional";
 import EstadoClase from "./components/EstadoClase";
 import Propiedades from "./components/Propiedades";
 import EstadoFuncional from './components/EstadoFuncional/index';
+import RenderizadoElementosClase from "./components/RenderizadoElementosClase/RenderizadoElementosClase";
 
 function App() {
     return (
@@ -19,9 +20,11 @@ function App() {
                 funcion={(num) => num * num}
                 elementoReact={<h1>soy un elemento react</h1>}
                 componente={<ComponenteFuncional msj="hola"/>}
-            /> */}
+            /> 
             <EstadoClase />
             <EstadoFuncional/>
+            */}
+            <RenderizadoElementosClase/>
         </div>
     );
 }
