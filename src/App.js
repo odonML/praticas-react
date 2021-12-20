@@ -1,13 +1,14 @@
 import "./App.css";
-import ComponenteClase from "./components/ComponenteClase/index";
-import ComponenteFuncional from "./components/ComponenteFuncional";
-import EstadoClase from "./components/EstadoClase";
-import Propiedades from "./components/Propiedades";
-import EstadoFuncional from './components/EstadoFuncional/index';
-import RenderizadoElementosClase from "./components/RenderizadoElementosClase/RenderizadoElementosClase";
-import EventosES6 from './components/EventosES6';
-import EventosES7 from "./components/EventosES7";
-import MasSobreEventos from './components/MasSobreEventos/index';
+// import ComponenteClase from "./components/ComponenteClase/index";
+// import ComponenteFuncional from "./components/ComponenteFuncional";
+// import EstadoClase from "./components/EstadoClase";
+// import Propiedades from "./components/Propiedades";
+// import EstadoFuncional from './components/EstadoFuncional/index';
+// import RenderizadoElementosClase from "./components/RenderizadoElementosClase/RenderizadoElementosClase";
+// import EventosES6 from './components/EventosES6';
+// import EventosES7 from "./components/EventosES7";
+// import MasSobreEventos from './components/MasSobreEventos/index';
+import ComunicacionComponentes from "./components/ComunicacionComponentes";
 
 function App() {
     return (
@@ -30,8 +31,9 @@ function App() {
             <EventosES6/>
             <hr />
             <EventosES7/>
-            */}
             <MasSobreEventos/>
+            */}
+            <ComunicacionComponentes />
         </div>
     );
 }
