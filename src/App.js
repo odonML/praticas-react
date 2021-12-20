@@ -1,4 +1,5 @@
 import "./App.css";
+import CicloVida from "./components/CicloVida";
 // import ComponenteClase from "./components/ComponenteClase/index";
 // import ComponenteFuncional from "./components/ComponenteFuncional";
 // import EstadoClase from "./components/EstadoClase";
@@ -32,8 +33,9 @@ function App() {
             <hr />
             <EventosES7/>
             <MasSobreEventos/>
-            */}
             <ComunicacionComponentes />
+            */}
+            <CicloVida />
         </div>
     );
 }
