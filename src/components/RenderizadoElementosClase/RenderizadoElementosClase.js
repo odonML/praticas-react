@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import data from "../../helpers/data.json"
 
+/* 
+Componente que renderiza elementos en base a un array 
+*/
+
 function Elemento({url, name}) {
     return(
         <li>

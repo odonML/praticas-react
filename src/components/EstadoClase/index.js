@@ -1,5 +1,6 @@
 import React from 'react';
 
+/* Componente de clase con estado */
 class EstadoClase extends React.Component {
     constructor(props){
         super(props)

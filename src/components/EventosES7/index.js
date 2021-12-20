@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
-//Property Initializer
+/*
+Componente con Property Initializer
+(nos evita hacer el binding)
+*/
 class EventosES7 extends Component {
 
         state = {

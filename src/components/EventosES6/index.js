@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 
+/*
+Componente de clase con eventos y binding
+binding: pasarle el this de la clase a los metodos para que tengan el contexto del this
+*/
+
 class EventosES6 extends Component {
     constructor(props){
         super(props);
