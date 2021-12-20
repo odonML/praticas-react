@@ -1,0 +1,19 @@
+{
+    "frameworks": [
+        {
+            "id": 1,
+            "name": "React",
+            "url": "https://reactjs.org"
+        },
+        {
+            "id": 1,
+            "name": "Angular",
+            "url": "https://angular.io"
+        },
+        {
+            "id": 3,
+            "name": "Vuejs",
+            "url": "https://vuejs.org"
+        }
+    ]
+}
