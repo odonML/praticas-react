@@ -5,7 +5,8 @@ import EstadoClase from "./components/EstadoClase";
 import Propiedades from "./components/Propiedades";
 import EstadoFuncional from './components/EstadoFuncional/index';
 import RenderizadoElementosClase from "./components/RenderizadoElementosClase/RenderizadoElementosClase";
-import Eventos from './components/Eventos/index';
+import EventosES6 from './components/EventosES6';
+import EventosES7 from "./components/EventosES7";
 
 function App() {
     return (
@@ -26,7 +27,9 @@ function App() {
             <EstadoFuncional/>
             <RenderizadoElementosClase/>
             */}
-            <Eventos/>
+            <EventosES6/>
+            <hr />
+            <EventosES7/>
         </div>
     );
 }

@@ -1,21 +1,19 @@
 import React, { Component } from 'react'
 
-class Eventos extends Component {
-    constructor(props){
-        super(props);
-        this.state = {
+//Property Initializer
+class EventosES7 extends Component {
+
+        state = {
             contador: 0
         }
-        this.sumar = this.sumar.bind(this);
-        this.restar = this.restar.bind(this);
-    }
-    sumar(){
+
+    sumar = () =>{
         this.setState({
             contador: this.state.contador + 1
         })
     }
 
-    restar(){
+    restar = () => {
         this.setState({
             contador: this.state.contador - 1
         })
@@ -24,7 +22,7 @@ class Eventos extends Component {
     render() {
         return (
             <div>
-                <h2>Eventos en componente de clase</h2>
+                <h2>Eventos en EventosES7</h2>
                 <nav>
                     <button onClick={this.sumar}> + </button>
                     <button onClick={this.restar}> - </button>
@@ -35,4 +33,4 @@ class Eventos extends Component {
     }
 }
 
-export default Eventos;
+export default EventosES7;
