@@ -7,6 +7,7 @@ import EstadoFuncional from './components/EstadoFuncional/index';
 import RenderizadoElementosClase from "./components/RenderizadoElementosClase/RenderizadoElementosClase";
 import EventosES6 from './components/EventosES6';
 import EventosES7 from "./components/EventosES7";
+import MasSobreEventos from './components/MasSobreEventos/index';
 
 function App() {
     return (
@@ -26,10 +27,11 @@ function App() {
             <EstadoClase />
             <EstadoFuncional/>
             <RenderizadoElementosClase/>
-            */}
             <EventosES6/>
             <hr />
             <EventosES7/>
+            */}
+            <MasSobreEventos/>
         </div>
     );
 }
