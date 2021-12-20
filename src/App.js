@@ -1,4 +1,5 @@
 import "./App.css";
+import AjaxApis from "./components/AjaxApis.js";
 import CicloVida from "./components/CicloVida";
 // import ComponenteClase from "./components/ComponenteClase/index";
 // import ComponenteFuncional from "./components/ComponenteFuncional";
@@ -34,8 +35,9 @@ function App() {
             <EventosES7/>
             <MasSobreEventos/>
             <ComunicacionComponentes />
-            */}
             <CicloVida />
+            */}
+            <AjaxApis />
         </div>
     );
 }
