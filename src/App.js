@@ -12,6 +12,7 @@ import CicloVida from "./components/CicloVida";
 // import MasSobreEventos from './components/MasSobreEventos/index';
 import ComunicacionComponentes from "./components/ComunicacionComponentes";
 import Contador from './components/Hooks/Contador/index';
+import ScrollY from './components/Hooks/ScrollY/index';
 
 function App() {
     return (
@@ -37,9 +38,10 @@ function App() {
             <MasSobreEventos/>
             <ComunicacionComponentes />
             <CicloVida />
-            <AjaxApis />
-            */}
-            <Contador/>
+        */}
+        <AjaxApis />
+        <Contador/>
+            <ScrollY />
         </div>
     );
 }
