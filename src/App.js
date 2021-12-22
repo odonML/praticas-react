@@ -11,6 +11,7 @@ import CicloVida from "./components/CicloVida";
 // import EventosES7 from "./components/EventosES7";
 // import MasSobreEventos from './components/MasSobreEventos/index';
 import ComunicacionComponentes from "./components/ComunicacionComponentes";
+import Contador from './components/Hooks/Contador/index';
 
 function App() {
     return (
@@ -36,8 +37,9 @@ function App() {
             <MasSobreEventos/>
             <ComunicacionComponentes />
             <CicloVida />
-            */}
             <AjaxApis />
+            */}
+            <Contador/>
         </div>
     );
 }
